@@ -1,6 +1,6 @@
 import React from 'react'
 import { SafeAreaView, Text } from 'react-native'
-import styles from './ErrorPage.styles'
+import styles from './ErrorPage.style'
 import Button from '../common/Button'
 
 const ErrorPage = ({ message = 'Bir problem oluştu', onRetry }) => {
