@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "text": "“Şair, şiirlerinde hava alacak boşluk bırakmıyor, her şeyi söylüyor. Okuyucunun adına da kendisi konuşuyor. Bunun için dizleri hayalinizi perdeliyor, soluğunuzu kesiyor, sizi boğuyor.\n\n ”Bu parçada geçen **“hava alacak boşluk bırakmamak”** sözüyle anlatılmak istenen aşağıdakilerden hangisidir?",
+    "correctOptionId": 3,
+    "options": [
+      {
+        "id": 1,
+        "key": "A",
+        "text": "[Büyük](Büyük)"
+      },
+      {
+        "id": 2,
+        "key": "B",
+        "text": "Güzel"
+      },
+      {
+        "id": 3,
+        "key": "C",
+        "text": "Hızlı"
+      },
+      {
+        "id": 4,
+        "key": "D",
+        "text": "Kitap"
+      },
+      {
+        "id": 5,
+        "key": "E",
+        "text": "Sıcak"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Aşağıdaki cümlelerden hangisi **olumlu** bir ifade içerir?",
+    "correctOptionId": 1,
+    "options": [
+      {
+        "id": 1,
+        "key": "A",
+        "text": "Her sabah güneşli günlerle uyanmak harika bir duygu."
+      },
+      {
+        "id": 2,
+        "key": "B",
+        "text": "Hiç kimse sorularımı cevaplamadı."
+      },
+      {
+        "id": 3,
+        "key": "C",
+        "text": "Yağmur yağarken dışarıda olmak pek keyifli değil."
+      },
+      {
+        "id": 4,
+        "key": "D",
+        "text": "Uzun bir yolculuktan sonra yorgun düşmüştüm."
+      },
+      {
+        "id": 5,
+        "key": "E",
+        "text": "Saat alarmı çaldığında hemen uyanabiliyorum."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "Türkiye'nin başkenti neresidir?",
+    "correctOptionId": 4,
+    "options": [
+      {
+        "id": 1,
+        "key": "A",
+        "text": "Ankara"
+      },
+      {
+        "id": 2,
+        "key": "B",
+        "text": "İstanbul"
+      },
+      {
+        "id": 3,
+        "key": "C",
+        "text": "İzmir"
+      },
+      {
+        "id": 4,
+        "key": "D",
+        "text": "Ankara"
+      },
+      {
+        "id": 5,
+        "key": "E",
+        "text": "Antalya"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "Hangisi bir **memeli hayvan** türüdür?",
+    "correctOptionId": 2,
+    "options": [
+      {
+        "id": 1,
+        "key": "A",
+        "text": "Kobra yılanı"
+      },
+      {
+        "id": 2,
+        "key": "B",
+        "text": "Kaplan"
+      },
+      {
+        "id": 3,
+        "key": "C",
+        "text": "Mamba yılanı"
+      },
+      {
+        "id": 4,
+        "key": "D",
+        "text": "Karahindiba"
+      },
+      {
+        "id": 5,
+        "key": "E",
+        "text": "Tarantula örümceği"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "Hangisi bir karbonatlı içecektir?",
+    "correctOptionId": 3,
+    "options": [
+      {
+        "id": 1,
+        "key": "A",
+        "text": "Cola"
+      },
+      {
+        "id": 2,
+        "key": "B",
+        "text": "Limonata"
+      },
+      {
+        "id": 3,
+        "key": "C",
+        "text": "Soda"
+      },
+      {
+        "id": 4,
+        "key": "D",
+        "text": "Portakal suyu"
+      },
+      {
+        "id": 5,
+        "key": "E",
+        "text": "Meyve suyu"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "Türkiye'nin en yüksek dağı hangisidir?",
+    "correctOptionId": 4,
+    "options": [
+      {
+        "id": 1,
+        "key": "A",
+        "text": "Kaçkar Dağları"
+      },
+      {
+        "id": 2,
+        "key": "B",
+        "text": "Erciyes Dağı"
+      },
+      {
+        "id": 3,
+        "key": "C",
+        "text": "Toros Dağları"
+      },
+      {
+        "id": 4,
+        "key": "D",
+        "text": "Ağrı Dağı"
+      },
+      {
+        "id": 5,
+        "key": "E",
+        "text": "Tahtalı Dağ"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "Hangisi bir ***asal*** sayıdır?",
+    "correctOptionId": 1,
+    "options": [
+      {
+        "id": 1,
+        "key": "A",
+        "text": "13"
+      },
+      {
+        "id": 2,
+        "key": "B",
+        "text": "18"
+      },
+      {
+        "id": 3,
+        "key": "C",
+        "text": "24"
+      },
+      {
+        "id": 4,
+        "key": "D",
+        "text": "30"
+      },
+      {
+        "id": 5,
+        "key": "E",
+        "text": "42"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "Hangisi Türk mutfağına ait bir yemektir?",
+    "correctOptionId": 3,
+    "options": [
+      {
+        "id": 1,
+        "key": "A",
+        "text": "Pizza"
+      },
+      {
+        "id": 2,
+        "key": "B",
+        "text": "Sushi"
+      },
+      {
+        "id": 3,
+        "key": "C",
+        "text": "Karnabahar yemeği"
+      },
+      {
+        "id": 4,
+        "key": "D",
+        "text": "Paella"
+      },
+      {
+        "id": 5,
+        "key": "E",
+        "text": "Gyros"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "Hangi gezegen Güneş Sistemi'ndeki en büyük gezegendir?",
+    "correctOptionId": 2,
+    "options": [
+      {
+        "id": 1,
+        "key": "A",
+        "text": "Venüs"
+      },
+      {
+        "id": 2,
+        "key": "B",
+        "text": "Jüpiter"
+      },
+      {
+        "id": 3,
+        "key": "C",
+        "text": "Mars"
+      },
+      {
+        "id": 4,
+        "key": "D",
+        "text": "Satürn"
+      },
+      {
+        "id": 5,
+        "key": "E",
+        "text": "Uranüs"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "Hangisi bir orman hayvanıdır?",
+    "correctOptionId": 4,
+    "options": [
+      {
+        "id": 1,
+        "key": "A",
+        "text": "Köpek"
+      },
+      {
+        "id": 2,
+        "key": "B",
+        "text": "Kedi"
+      },
+      {
+        "id": 3,
+        "key": "C",
+        "text": "Balık"
+      },
+      {
+        "id": 4,
+        "key": "D",
+        "text": "Tilki"
+      },
+      {
+        "id": 5,
+        "key": "E",
+        "text": "Kuş"
+      }
+    ]
+  }
+]
