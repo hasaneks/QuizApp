@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react'
 import { forwardRef } from 'react'
-import { ScrollView, Text, View } from 'react-native'
+import { Text, View } from 'react-native'
 import BottomSheet, {
   BottomSheetBackdrop,
   BottomSheetScrollView

@@ -3,9 +3,25 @@ import styles from './Header.style'
 import IconButton from '../common/IconButton'
 import * as Icon from 'assets/svg'
 import { useNavigation } from '@react-navigation/native'
+import { useEffect, useState } from 'react'
+import { formatTime } from 'helpers/utils'
 
-export default function Header({ title, onPressRightButton }) {
+export default function Header({ title, showTimer, onPressRightButton }) {
   const navigation = useNavigation()
+  const [durationInSeconds, setDurationInSeconds] = useState(0)
+
+  useEffect(() => {
+    if (!showTimer) {
+      return
+    }
+
+    const timerInterval = setInterval(() => {
+      setDurationInSeconds((prevDuration) => prevDuration + 1)
+    }, 1000)
+
+    return () => clearInterval(timerInterval)
+  }, [])
+
   return (
     <View style={styles.container}>
       <IconButton
@@ -16,7 +32,10 @@ export default function Header({ title, onPressRightButton }) {
       />
 
       <View style={styles.titleContainer}>
-        <Text style={styles.title}>{title}</Text>
+        {title && !showTimer && <Text style={styles.title}>{title}</Text>}
+        {showTimer && (
+          <Text style={styles.title}>{formatTime(durationInSeconds)}</Text>
+        )}
       </View>
 
       <IconButton

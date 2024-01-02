@@ -6,7 +6,7 @@ import { ActionSheetProvider } from '@expo/react-native-action-sheet'
 const App = () => {
   return (
     <Provider>
-      <StatusBar />
+      <StatusBar barStyle={'light-content'} />
       <ActionSheetProvider>
         <Navigation />
       </ActionSheetProvider>

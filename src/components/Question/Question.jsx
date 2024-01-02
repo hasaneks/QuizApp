@@ -3,6 +3,7 @@ import Markdown from '../Markdown'
 import { color } from 'style'
 import styles from './Question.style'
 import * as Icon from 'assets/svg'
+import Option from '../Option'
 
 export default function Question({ data, userAnswer, onSelect, fontSize }) {
   const { id, text, options } = data
@@ -26,23 +27,14 @@ export default function Question({ data, userAnswer, onSelect, fontSize }) {
       </Markdown>
       <View style={styles.answerList}>
         {options?.map((answer) => {
-          const fullAnswer = answer.key + ')' + ' ' + answer.text
-          const isSelected = userAnswer?.answerId === answer.id
           return (
-            <TouchableOpacity
+            <Option
               key={answer.id}
-              style={styles.answer(isSelected)}
+              answer={answer}
+              userAnswer={userAnswer}
+              fontSize={fontSize}
               onPress={() => changeAnswer({ id, answer })}
-            >
-              <View style={styles.radioContainer}>
-                {isSelected ? (
-                  <Icon.SelectedCircle height={24} width={24} />
-                ) : (
-                  <Icon.Circle height={24} width={24} />
-                )}
-              </View>
-              <Markdown>{fullAnswer}</Markdown>
-            </TouchableOpacity>
+            />
           )
         })}
       </View>
