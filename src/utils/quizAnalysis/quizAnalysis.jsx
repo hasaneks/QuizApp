@@ -1,15 +1,4 @@
-export const formatTime = (timeInSeconds) => {
-  const hours = Math.floor(timeInSeconds / 3600)
-  const minutes = Math.floor((timeInSeconds % 3600) / 60)
-  const seconds = timeInSeconds % 60
-
-  return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(
-    2,
-    '0'
-  )}:${String(seconds).padStart(2, '0')}`
-}
-
-export const quizAnalysis = ({ answerList, questions }) => {
+const quizAnalysis = ({ answerList, questions }) => {
   let correctAnswers = 0
   let wrongAnswers = 0
   let blankAnswers = 0
@@ -37,3 +26,5 @@ export const quizAnalysis = ({ answerList, questions }) => {
 
   return { correctAnswers, wrongAnswers, blankAnswers, netPoint }
 }
+
+export default quizAnalysis

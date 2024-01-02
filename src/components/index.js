@@ -2,6 +2,7 @@ import Markdown from './Markdown'
 import Question from './Question'
 import ProgressBar from './ProgressBar'
 import Header from './Header'
+import ErrorBoundaryPage from './ErrorPage'
 // Common Components
 import Button from './common/Button'
 import IconButton from './common/IconButton'
@@ -15,6 +16,7 @@ export {
   Question,
   ProgressBar,
   Header,
+  ErrorBoundaryPage,
   /*Common Components */
   Button,
   IconButton,

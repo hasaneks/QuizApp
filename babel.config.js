@@ -7,17 +7,17 @@ module.exports = {
       {
         root: ['./src/'],
         alias: {
-          components: './src/components',
-          pages: './src/pages',
           assets: './src/assets',
-          style: './src/style',
-          icons: './src/assets/svg',
+          components: './src/components',
+          container: '.src/container',
           mockupData: './src/mockupData',
-          helpers: './src/helpers',
-          features: './src/redux/features',
           navigation: './src/navigation',
-          hooks: './src/hooks',
-          models: './src/models'
+          pages: './src/pages',
+          redux: '.src/redux',
+          style: './src/style',
+          utils: './src/utils',
+          features: './src/redux/features',
+          icons: './src/assets/svg'
         }
       }
     ]

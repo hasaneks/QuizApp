@@ -4,7 +4,7 @@ import IconButton from '../common/IconButton'
 import * as Icon from 'assets/svg'
 import { useNavigation } from '@react-navigation/native'
 import { useEffect, useState } from 'react'
-import { formatTime } from 'helpers/utils'
+import formatTime from 'utils/formatter'
 
 export default function Header({ title, showTimer, onPressRightButton }) {
   const navigation = useNavigation()
